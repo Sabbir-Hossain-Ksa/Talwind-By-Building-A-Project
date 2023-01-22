@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title  -->
+    <title>Talwind-By-Building-A-Project</title>
+    <!-- google fonts  -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+    <!-- tailwind css cdn link  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        yellow: "#FECC02",
+                        gray: "#4E4E4E",
+                        black: "#131313",
+                    },
+                    fontFamily: {
+                        Montserrat: ["Montserrat", "sans-serif"],
+                        bebas: ["Bebas Neue", "cursive"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body>
+    <!-- header section  -->
+    <header class="fixed top-0 left-0 right-0 bg-white w-full h-20">
+        <nav class="flex justify-between items-center h-20 w-full max-w-7xl mx-auto p-5">
+            <h2 class="text-black font-bebas text-3xl font-medium">Jhaka Naka Production
+
+            </h2>
+            <ul class="font-bebas text-lg md:flex gap-4 p-5">
+                <li><a href="#">About US </a></li>
+                <li><a href="#">our Movies</a></li>
+                <li><a href="#">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="h-screen pt-20 bg-[url('./jhakanaka/images/banner.jpg')] bg-cover">
+        <div class=" h-full flex justify-start items-center w-full max-w-7xl mx-auto p-5">
+            <div>
+                <p class="text-lg font-babas mb-2 text-white">Movie production studio</p>
+                <h1 class="text-6xl font-babas uppercase text-white font-medium">Films MAde to</h1>
+                <h1 class="text-6xl font-babas uppercase text-yellow font-medium mb-3">Perfection</h1>
+                <p class="text-lg font-Montserrat mb-2 text-white w-3/5 ">Lorem ipsum dolor sit amet, consectetur
+                    adipiscing elit. Ut elittellus, luctus nec ullamcorper mattis, pulvinar dapibus leo</p>
+                <button type="button"
+                    class="text-blue-700 hover:text-white border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-8  text-center py-5  dark:border-blue-500 dark:text-blue-500 dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">DiscoverMore</button>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- About us section  -->
+    <section class="my-36 w-full max-w-7xl mx-auto ">
+        <div class="border-2 p-9">
+            <div class="md:flex items-center gap-4">
+                <div
+                    class="bg-[url('./jhakanaka/images/camera-man.jpg')] h-[600px] bg-no-repeat bg-cover  w-full md:w-1/2 bg-center flex items-end mb-7">
+                    <div class="mx-auto bg-white w-fit rounded-sm">
+                        <h4 class="text-lg font-Montserrat -mb-7 py-2 px-4 text-black font-semibold">23 YEARS of
+                            EXPERIENCE</h4>
+                    </div>
+                </div>
+                <div class="w-full md:w-1/2 py-4">
+                    <p class="font-bebas text-lg font-black mb-4">ABOUT US</p>
+                    <h1 class="text-6xl font-bebas ">FIlming Experience</h1>
+                    <h1 class="text-6xl font-bebas mb-2">Just Got better</h1>
+                    <p class="text-lg font-Montserrat mb-9 text-black font-semibold">Lorem ipsum dolor sit amet
+                        consectetur adipisicing elit. Magnam quibusdam ut qui eos ipsam. Totam nisi a odit blanditiis
+                        molestias!</p>
+                    <button class=" py-5 px-9 
+        border-2 hover:bg-lime-500 hover:text-slate-900 transition-all hover:border-0">Discover More</button>
+                </div>
+            </div>
+            <!-- ----Our Vision------- -->
+            <div class=" grid md:grid-cols-2 lg:grid-cols-3 mt-5 gap-3">
+                <div>
+                    <h1 class="text-5xl font-bebas ">OUR VISIOn</h1>
+                    <p class="font-Montserrat text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <h1 class="text-5xl font-bebas ">OUR VISIOn</h1>
+                    <p class="font-Montserrat text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+                <div>
+                    <h1 class="text-5xl font-bebas ">OUR VISIOn</h1>
+                    <p class="font-Montserrat text-lg font-semibold">Lorem ipsum dolor sit amet, consectetur adipiscing
+                        elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Movie collection section -->
+    <section class="my-36 w-full py-20 bg-[#4E4E4E] ">
+        <div class="max-w-7xl mx-auto">
+            <p class=" p-5 text-lg text-white font-bebas">OUR MOVIES</p>
+
+            <div class="w-full md:flex justify-between p-5">
+                <h1 class="text-6xl mb-4 font-semibold font-Montserrat text-white">Movie collection</h1>
+                <button type="button"
+                    class="text-white hover:text-white border border-blue-700  focus:ring-4 focus:outline-none focus:ring-blue-300 font-semibold rounded-lg text-sm px-8  text-center py-5  dark:border-blue-500 dark:text-white dark:hover:text-white dark:hover:bg-blue-600 dark:focus:ring-blue-800">See
+                    More Movies</button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 ">
+                <div class="my-12 h-[450px] w-full  border-2 border-slate-100 p-5">
+                    <img class="h-full w-full md:w-[22rem]" src="./jhakanaka/images/interstellar.jpg" alt="" srcset="">
+                </div>
+                <div class="my-12 h-[450px] w-full border-2 border-slate-100 p-5">
+                    <img class="h-full w-full md:w-[22rem]" src="./jhakanaka/images/fractured.jpg" alt="" srcset="">
+                </div>
+                <div class="my-12 h-[450px] w-full border-2 border-slate-100 p-5">
+                    <img class="h-full w-full md:w-[22rem]" src="./jhakanaka/images/inception.jpg" alt="" srcset="">
+                </div>
+                <div class="my-12 h-[450px] w-full border-2 border-slate-100 p-5">
+                    <img class="h-full w-full md:w-[22rem]" src="./jhakanaka/images/tenet.jpg" alt="" srcset="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- offer section  -->
+    <section class="w-full max-w-7xl mx-auto mb-36 ">
+        <p class=" p-5 text-lg font-bebas text-center">services</p>
+        <h1 class="text-6xl mb-4 font-bebas uppercase text-center">what we offer</h1>
+
+        <div
+            class="pt-16 grid md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 md:gap-y-14 gap-5 md:ml-20 lg:-ml-0 lg:pl-6 p-4">
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/film.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/3d-glasss.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/camera.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/count-down.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/director-chair.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/rim.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/rim.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+            <div class="text-center border-2 w-full md:h-64 md:w-64 p-2">
+                <div class="flex justify-center ">
+                    <img class="w-16 h-16" src="./jhakanaka/images/icons/theater.png" alt="">
+                </div>
+                <h4 class="font-bebas text-lg my-2">movies director</h4>
+                <p class="font-Montserrat text-lg font-semibold ">Ex quam platea aliquet viverra si dictumst lobortis
+                    quis aliquam dis eget. </p>
+            </div>
+        </div>
+    </section>
+    <!-- main area  -->
+
+    <!-- footer area  -->
+    <footer class="bg-[url('./jhakanaka/images/footer-bg.jpg')] w-full h-96">
+        <div class="w-full max-w-7xl mx-auto text-center">
+            <h1 class="pt-14 text-6xl text-white font-bebas ">jhaka naka production</h1>
+            <h3 class="text-lg text-white font-bebas">next level experience</h3>
+            <p class="font-Montserrat text-lg font-normal pt-5 text-white w-[600px] ml-[348px]">Feugiat nibh litora
+                semper proin nullam facilisi
+                volutpat ex ullamcorper.</p>
+            <p class="font-Montserrat font-normal pt-24 text-white">Copyright © 2021 Jhaka Naka Production, All rights
+                reserved. Present by Mir Hussain</p>
+        </div>
+    </footer>
+</body>
+
+</html>
